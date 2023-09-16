@@ -16,11 +16,6 @@ body{
   font-family: 'Karla', sans-serif;
 }
 
-.double-square{
-  display: flex;
-  flex-direction: row;
-}
-
 .center-square{
   background-color: #1F2937;
   width: 550px;
@@ -59,6 +54,7 @@ body{
   height: 42px;
   border-radius: 6px;
   color: #FFFFFF;
+  font-size: 14px;
 }
 
 hr {
@@ -70,7 +66,7 @@ hr {
   background-color: transparent;
 }
 
-.input-box{
+.output-box{
   background-color: #273549;
   border: none;
   width: 191px;
@@ -78,8 +74,31 @@ hr {
   border-radius: 6px;
   color: #FFFFFF;
   margin-right: 24px;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
-.input-boxes{
+.output-boxes{
   display: flex;
+}
+
+#passwordLength{
+  width: 191px;
+  height: 42px;
+  border-radius: 6px;
+  margin: 10px 0px;
+  padding-left: 10px;
+}
+
+#pass-label{
+  color: white;
+}
+
+.copy-icon {
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: 15px;
 }
